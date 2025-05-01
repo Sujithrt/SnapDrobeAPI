@@ -1,13 +1,11 @@
 # SnapDrobe
 
-SnapDrobe is an AI-powered smart wardrobe assistant built for Snap Spectacles. It allows users to capture clothing items in the real world, build a digital wardrobe, and get intelligent outfit recommendations, all through natural voice interactions and the power of AR.
+🏆 **2nd Place in the Snap Inc. Challenge: Dream it. Build it. at LAHacks 2025** 🎉
 
----
+SnapDrobe is an AI-powered smart wardrobe assistant built for Snap Spectacles. It allows users to capture clothing items in the real world, build a digital wardrobe, and get intelligent outfit recommendations, all through natural voice interactions and the power of AR.
 
 ## Inspiration
 Fashion can be fun, but for many people (including us), it's often stressful. SnapDrobe was born from the idea of combining the visual power of Snap Spectacles with AI to make fashion easier, more accessible, and more personalized for everyone.
-
----
 
 ## Features
 - **Instant Wardrobe Capture**: Snap a picture of clothes you like simply by saying "Add to wardrobe."
@@ -17,16 +15,12 @@ Fashion can be fun, but for many people (including us), it's often stressful. Sn
 - **Visual Outfit Previews**: See AI-generated images of complete outfits before deciding what to wear.
 - **Hands-Free Interaction**: Fully voice-controlled experience using Snap Spectacles.
 
----
-
 ## Architecture
 - **Snap Spectacles + Lens Studio**: Capture images, listen to voice commands, and display outfit previews.
 - **Backend (Python + FetchAI UAgent)**: Handle communication, item storage, and AI processing.
 - **Gemini API**: Analyze clothing images and generate outfit mockups.
 - **Amazon DynamoDB**: Store structured wardrobe items in the cloud.
 - **OpenWeather API**: Fetch real-time weather data to improve outfit suggestions.
-
----
 
 ## Tech Stack
 - **Lens Studio** (AR development)
@@ -37,8 +31,6 @@ Fashion can be fun, but for many people (including us), it's often stressful. Sn
 - **OpenAI API** (Text to Speech)
 - **Amazon DynamoDB** (cloud database)
 - **OpenWeather API** (real-time weather integration)
-
----
 
 ## How It Works
 
@@ -57,15 +49,11 @@ Fashion can be fun, but for many people (including us), it's often stressful. Sn
   - Event type
 - SnapDrobe suggests a complete outfit and shows a mockup image.
 
----
-
 ## Challenges
 - Learning and building quickly with **Snap Spectacles** and **Lens Studio** for the first time.
 - Managing **reliable voice triggers** inside a live AR environment.
 - Ensuring **real-time responses** while communicating with cloud-based AI models.
 - Creating a **seamless user experience** that feels natural and responsive.
-
----
 
 ## What's Next
 - **AR try-on previews** directly through Snap Spectacles.
